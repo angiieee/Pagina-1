@@ -1,0 +1,62 @@
+body {
+	background-color: #d4b0e3;
+}
+
+p {
+	font-family: KenzoTange Sans;
+	font-size: 15pt;
+}
+
+h1 {
+    font-family: KenzoTange Sans;
+    position: relative;
+    text-align: center;
+    color:#32568f;
+    margin-top: 80px;
+}
+
+.container .sobrenatural {
+    width: 100%;
+    height: 700px;
+}
+
+.container .aguas {
+    widows: 100%;
+    height: 700px;
+}
+
+.container .perfil {
+    width: 100%;
+    height: 800px;
+}
+
+.sobrenatural img {
+    margin-top: 80px;
+    margin-left: 350px;
+    position: inline-block;
+}
+
+.aguas img {
+    margin-top: 40px;
+    margin-left: 220px;
+    position: inline-block;
+}
+
+.perfil img {
+	margin-top: 110px;
+    margin-left: 190px;
+    margin-bottom: 50px;
+    position: inline-block;
+}
+
+.title {
+    display: none;
+    position: relative;
+    text-align: center;
+    margin-top: -400px;
+    color: white;
+}
+
+.title:hover, a.wrapper:hover + div {
+	 display: block;
+}
